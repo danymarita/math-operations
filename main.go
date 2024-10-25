@@ -11,4 +11,6 @@ func main() {
 	y := 3
 	additionResult := functions.Addition(x, y)
 	fmt.Println("Addition result: ", additionResult)
+	substractionResult := functions.Substraction(x, y)
+	fmt.Println("Substraction result: ", substractionResult)
 }
